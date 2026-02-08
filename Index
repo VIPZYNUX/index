@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine's Gift 💝</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      color: #333;
+      text-align: center;
+    }
+    header {
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #b0003a;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .gifts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gift-card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+    }
+    .gift-card:hover {
+      transform: translateY(-8px);
+    }
+    .gift-card h3 {
+      color: #e91e63;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      background: #e91e63;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #c2185b;
+    }
+    footer {
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Valentine's Gift 💖</h1>
+    <p>Beautiful Valentine Template with multiple gift options to choose from</p>
+  </header>
+
+  <section class="gifts">
+    <div class="gift-card">
+      <h3>💌 Love Letter</h3>
+      <p>A sweet romantic message from my heart to yours.</p>
+      <button onclick="alert('You are my favorite person ❤️')">Open</button>
+    </div>
+    <div class="gift-card">
+      <h3>🌹 Virtual Roses</h3>
+      <p>Roses that never fade, just like my love.</p>
+      <button onclick="alert('A bouquet just for you 🌹🌹🌹')">Open</button>
+    </div>
+    <div class="gift-card">
+      <h3>🎵 Love Song</h3>
+      <p>A song that reminds me of you.</p>
+      <button onclick="alert('🎶 This song is dedicated to you 🎶')">Play</button>
+    </div>
+    <div class="gift-card">
+      <h3>🎁 Secret Gift</h3>
+      <p>One last surprise…</p>
+      <button onclick="alert('I love you more every day 💕')">Reveal</button>
+    </div>
+  </section>
+
+  <footer>
+    Made with ❤️ for Valentine’s Day
+  </footer>
+</body>
+</html>
